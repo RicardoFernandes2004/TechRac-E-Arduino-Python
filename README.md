@@ -19,7 +19,7 @@ Dependências:
 - pyserial
 
 Código Arduino>:
-const int potPin = A0;  // pin connected to the potentiometer
+int potPin = A0;  // pin connected to the potentiometer
 
 void setup() {
   Serial.begin(9600);
